@@ -9,3 +9,5 @@ export class Recipe {
         this.imagePath = imagePath;
     }
 }
+
+//blueprint for creating recipe items
