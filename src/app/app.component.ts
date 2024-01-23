@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+
+  currentFeature: string= 'shopping-list';
+
   title = 'angular-course-project';
+
+  onFeatureSelected(feature: string) {
+    this.currentFeature = feature;
+  }
 }
