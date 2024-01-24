@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  currentFeature: string= 'shopping-list';
+  currentFeature: string= 'recipe';
 
   title = 'angular-course-project';
 
