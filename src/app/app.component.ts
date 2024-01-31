@@ -10,8 +10,4 @@ export class AppComponent {
   currentFeature: string= 'recipe';
 
   title = 'angular-course-project';
-
-  onFeatureSelected(feature: string) {
-    this.currentFeature = feature;
-  }
 }
